@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Crime Shows Review App</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <h1 id="title">Welcome to Crime Drama Reviews</h1>
+        <h1>Enter Review </h1>
+        <div class="form-item">
+          <label for="show" class="primary">Show</label>
+          <select id="show">
+            <option value="" disabled selected></option>
+            <option value="Dark Heart">Dark Heart</option>
+            <option value="Criminal Minds">Criminal Minds</option>
+            <option value="CSI">CSI</option>
+            <option value="The Killing">The Killing</option>
+            <option value="The Fall">The Fall</option>
+            <option value="Luther">Luther</option>
+            <option value="Silent Witness">Silent Witness</option>
+            <option value="Taggart">Taggart</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label for="rating" class="primary">Rating</label>
+          <div id="rating">
+
+              <input type="radio" id="onestar" name="star" value="One Star">
+              <label for="One Star">One Star</label>
+
+              <input type="radio" id="twostars" name="star" value="Two Star">
+              <label for="Two Stars">Two Stars</label>
+
+              <input type="radio" id="threestars" name="star" value="Three Stars">
+              <label for="Three Stars">Three Stars</label>
+
+              <input type="radio" id="fourstars" name="star" value="Four Stars">
+              <label for="Four Stars">Four Stars</label>
+
+              <input type="radio" id="fivestars" name="star" value="Five Stars">
+              <label for="Five Stars">Five Stars</label>
+          </div>
+        </div>
+
+
+      <div class="form-item">
+        <label for="comments" class="primary">Comments</label>
+        <input type="text" id="comments" required/>
+      </div>
+
+      <input type="submit" value="save"/>
+    </form>
+    <form id = "delete-forms">
+      <input type="submit" = value="delete all">
+    </form>
+    <h1>Reviews</h1>
+    <div class="flex-container">
+    <container id = "reviews"></container>
+    </div>
+  </body>
+</html>

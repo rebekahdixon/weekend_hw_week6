@@ -1,0 +1,31 @@
+body{
+  background-color: #9baec8;
+}
+
+*{
+  text-align: center;
+}
+
+.form-item{
+  color: #282c37;
+  text-align: center;
+}
+
+h1{
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+#title{
+  font-size: 50px;
+  font-style: bold;
+  font-style: italic;
+  color: #d9e1e8;
+}
+/* #d9e1e8
+ #2b90d9 */
+container{
+  color: #181842;
+
+}
